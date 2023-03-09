@@ -1,0 +1,3 @@
+= zim-rtx
+
+https://github.com/zimfw/zimfw[zim module] for https://github.com/rtxpw/rtx[rtx].

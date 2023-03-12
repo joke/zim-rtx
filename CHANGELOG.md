@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/joke/zim-rtx/compare/v1.0.1...v1.0.2) (2023-03-12)
+
+
+### Bug Fixes
+
+* new version detection message ([7c81545](https://github.com/joke/zim-rtx/commit/7c815459bec0c43153288f634ec17707e0e364cb))
+
 ## [1.0.1](https://github.com/joke/zim-rtx/compare/v1.0.0...v1.0.1) (2023-03-12)
 
 

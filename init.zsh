@@ -9,12 +9,12 @@
   fi
 
   source $activatefile
-  source <(rtx hook-env -s zsh | tee /dev/shm/tee)
+  source <($command hook-env -s zsh)
 
   # generating completions
   local compfile=$1/functions/_rtx
   if [[ ! -e $compfile || $compfile -ot $command ]]; then
     $command complete --shell zsh >| $compfile
-    print -u2 -PR "* Detected a new version 'rtx'. May you need to restart your terminal for changes to take effect."
+    print -u2 -PR "* Detected a new version 'rtx'. Regenerated completions."
   fi
 } ${0:h}

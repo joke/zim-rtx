@@ -1,5 +1,9 @@
 = zim-rtx
 
+IMPORTANT: `rtx` has been renamed to `mise`.
+You might want to switch from `joke/zim-rtx` to https://github.com/joke/zim-mise[`joke/zim-mise`].
+This repository has been archived so existing rtx installations will continue to work.
+
 https://github.com/zimfw/zimfw[zim module] for https://github.com/jdxcode/rtx[rtx].
 
 TIP: Add this module as early as possible to the `.zimrc` file.
